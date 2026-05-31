@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# Local config and runtime data
+.env
+.env.*
+!.env.example
+deploy.env
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/*-wal
+data/*-shm
+data/secret.key
+*.session
+*.session-journal
+
+# Logs and temp
+logs/
+*.log
+*.exp
+tmp/
+/test_search.py
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+telegram-hashtag-parser.zip
+telegram-hashtag-parser.zip
