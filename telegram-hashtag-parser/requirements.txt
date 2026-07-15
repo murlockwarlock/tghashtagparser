@@ -1,8 +1,0 @@
-aiogram==3.6.0
-hydrogram==0.2.0
-tgcrypto==1.2.5
-SQLAlchemy==2.0.30
-python-dotenv==1.0.1
-cryptography==42.0.7
-aiohttp==3.9.5
-pytest==8.2.1
